@@ -1,0 +1,12 @@
+server_folder/server
+client_folder/client
+*.o
+*.out
+*~
+*.swp
+.DS_Store
+.vscode/
+.idea/
+*.iml
+client_folder/Downloads/*
+!client_folder/Downloads/.gitkeep
