@@ -24,7 +24,7 @@
 g++ -std=c++14 server.cpp -o server -pthread
 
 # Сборка клиента
-g++ -std=c++14 client.cpp -o client -pthread
+g++ -std=c++14 client.cpp -o client
 ```
 ## Запуск
 
@@ -43,6 +43,7 @@ g++ -std=c++14 client.cpp -o client -pthread
 - Проект создан в учебных целях
 - Нет шифрования и аутентификации, использовать только в доверенной сети
 - Обработка ошибок и проверка входных данных упрощены
+
 
 
 
